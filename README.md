@@ -72,6 +72,8 @@ An easy-to-use Burp Suite extension that injects Cloudflare Worker OOB (Out-Of-B
 
 ## Usage
 
+Before proceeding, **set your target scope in Burp Suite and enable the Interceptor** as shown in the screenshots—this prevents the extension from spraying every URL that comes through.
+
 1. **Set Cloudflare Worker URL**  
    - Inside **OOB Tracker** tab, update “Cloudflare Worker URL” to match your worker endpoint, for example:  
      ```
